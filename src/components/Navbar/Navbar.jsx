@@ -20,10 +20,6 @@ export const Navbar = () => {
         setHidden(!isHidden);
     }
 
-    const downloadFile = () => {
-        
-    }
-
     return (<nav className="navbar">
         <div className="container-xl">
             <div className="nav-brand">
@@ -37,7 +33,9 @@ export const Navbar = () => {
                         <li className="nav-item"><a href="/documentation">Documentation</a></li>
                         <li className="nav-item"><a href="/about">About</a></li>
                     </ul>
-                    <button className="btn btn-danger" onClick={downloadFile}><i class="fa fa-cloud-download" aria-hidden="true"></i> Download</button>
+                    <a download href="/dist/css/simplify.min.css">
+                        <button className="btn btn-danger"><i class="fa fa-cloud-download" aria-hidden="true"></i> Download</button>
+                    </a>
                 </div>
                 <div className="collapse navbar-collapse pc_none">
                     <div className="menuNav" ref={navBarRef}>

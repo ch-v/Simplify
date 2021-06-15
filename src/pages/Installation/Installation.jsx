@@ -11,9 +11,11 @@ export const Installation = () => {
                     <div className="d-flex-column mt-20">
                         <h3>Download</h3>
                         <p className="txt-primary mt-10">Please click below to download minified version of Simplify</p>
-                        <button className="btn mt-20">
-                        <i className="fa fa-cloud-download" aria-hidden="true"></i> Download
-                        </button>
+                        <a download href="/dist/css/simplify.min.css">
+                            <button className="btn mt-20">
+                                <i className="fa fa-cloud-download" aria-hidden="true"></i> Download
+                            </button>
+                        </a>
                     </div>
                     <div className="d-flex-column mt-20">
                         <h3>Installation</h3>
