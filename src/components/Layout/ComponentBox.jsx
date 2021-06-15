@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { SideNav } from "../lib/SideNav/SideNav"
 
 export const ComponentBox = ({ children }) => {
