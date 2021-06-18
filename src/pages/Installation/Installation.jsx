@@ -5,7 +5,7 @@ export const Installation = () => {
         <>
             <div className="flex">
                 <SideNav />
-                <div className="flex-column py-1">
+                <div className="flex-column py-1 px-1">
                     <h1>Getting Started</h1>
                     <p className="txt-primary my-1">Welcome to Simplify. It's super easy to include Simplify in your projects. Check out!</p>
                     <div className="d-flex-column my-2">
