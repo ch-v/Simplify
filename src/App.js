@@ -1,5 +1,5 @@
 import './App.css';
-import './assets/css/simplify.min.css';
+import './assets/css/simplify.css';
 
 import { Routes, Route } from 'react-router-dom';
 import { HomePage, Installation, NotFound } from './pages';

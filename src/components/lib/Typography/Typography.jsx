@@ -4,11 +4,11 @@ export const Typography = () => {
     return (
         <ComponentBox>
             <h1>Text Utilities</h1>
-            <p className="txt-primary mt-20">
+            <p className="txt-primary my-2">
                 One of the crucial aspect when it comes to readability and accessibility. Typography looks like a simple topic but many websites miss the trick.
                 </p>
             <div>
-                <h2 className="mt-20">Headings</h2>
+                <h2 className="my-2">Headings</h2>
                 <div className="component-box">
                     <h1>Heading 1</h1>
                     <h2>Heading 2</h2>
@@ -19,7 +19,7 @@ export const Typography = () => {
                 </div>
             </div>
             <div>
-                <h2 className="mt-20">Font Weights</h2>
+                <h2 className="my-2">Font Weights</h2>
                 <div className="component-box">
                     <p className="weight-600">Bold Text</p>
                     <p>Normal Text</p>
