@@ -255,6 +255,18 @@ textarea{
     cursor: pointer;
 }
 
+.box-shadow{
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 18%), 0 1px 3px 0 rgb(0 0 0 / 7%), 0 4px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.bdr-10 {
+    border-radius: .675rem;
+}
+
+.bdr-8 {
+    border-radius: 0.5rem;
+}
+
 /* Utility Classes End */
 
 li,
