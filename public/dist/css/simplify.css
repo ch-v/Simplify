@@ -233,6 +233,40 @@ textarea{
     text-align: center;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.right {
+    top: 0;
+    right : 0;
+}
+
+.left {
+    top: 0;
+    left : 0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.box-shadow{
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 18%), 0 1px 3px 0 rgb(0 0 0 / 7%), 0 4px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.bdr-10 {
+    border-radius: .675rem;
+}
+
+.bdr-8 {
+    border-radius: 0.5rem;
+}
+
 /* Utility Classes End */
 
 li,
