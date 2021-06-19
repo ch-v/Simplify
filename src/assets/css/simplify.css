@@ -28,7 +28,8 @@ html {
     --color-green-200 : #10B981;
     --color-white : #fff;
     --gray-100 : rgba(209,213,219,0.49411764705882355);
-    --gray-200 : rgba(73,80,87,.8745098039215686)
+    --gray-200 : rgba(73,80,87,.8745098039215686);
+    --color-red: #DC2626;
 }
 
 html {
@@ -269,6 +270,34 @@ textarea{
 
 .bdr-8 {
     border-radius: 0.5rem;
+}
+
+.font-xs {
+    font-size: 0.875rem;
+}
+
+.font-sm {
+    font-size: 1rem;
+}
+
+.font-lg {
+    font-size: 1.25rem;
+}
+
+.font-xl {
+    font-size: 1.5rem;
+}
+
+.error {
+    color: var(--color-red);
+}
+
+.success {
+    color : var(--color-green-200);
+}
+
+.primary-color {
+    color : var(--gray-100);
 }
 
 /* Utility Classes End */
